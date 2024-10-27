@@ -39,11 +39,11 @@ npm start
 The app will be available at http://localhost:3000.
 
 
-Deployment
+## Deployment
 
 The application is deployed and can be accessed at https://soft-moxie-b2bd3e.netlify.app.
 
-Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
