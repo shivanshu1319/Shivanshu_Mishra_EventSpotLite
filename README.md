@@ -1,8 +1,8 @@
-#EventSpot Lite
+# EventSpot Lite
 
 EventSpot Lite is a web application designed to help users discover events based on their interests. It features a user-friendly interface where users can search for events by name and location, and it provides detailed information about each event. The application supports dark mode for a better user experience.
 
-##Features
+## Features
 
 Search Functionality: Search for events by name and location.
 Event Details: Click on an event card to view detailed information in a modal.
@@ -45,4 +45,4 @@ Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
-###THANK YOU🙂
+###T HANK YOU🙂
