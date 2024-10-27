@@ -20,7 +20,7 @@ To run the project locally, follow these steps:
 
 Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/shivanshu1319/Shivanshu_Mishra_EventSpotLite.git
 ```
 Navigate to the project directory:
 ```bash
@@ -39,10 +39,10 @@ The app will be available at http://localhost:3000.
 
 Deployment
 
-The application is deployed and can be accessed at EventSpot Lite.
+The application is deployed and can be accessed at https://soft-moxie-b2bd3e.netlify.app.
 
 Contributing
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
 
-###T HANK YOU🙂
+### THANK YOU🙂
