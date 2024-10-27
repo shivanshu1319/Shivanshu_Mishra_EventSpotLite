@@ -6,6 +6,7 @@ import eventsData from '../data/events.json';
 const EventList = ({ searchName, searchLocation }) => {
   const [openEventId, setOpenEventId] = useState(null);
 
+  
   const filteredEvents = eventsData.filter(event =>
     event.name.toLowerCase().includes(searchName.toLowerCase()) &&
     event.location.toLowerCase().includes(searchLocation.toLowerCase())
