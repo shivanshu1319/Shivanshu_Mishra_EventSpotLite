@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #181818;
+  color: white;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.dark-mode .navbar {
+  background: linear-gradient(to right, #0056b3, #003d7a);
+}
+
+.navbar-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Search Input Styles */
+.search-input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1rem;
+  margin-right: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Search Button Styles */
+.search-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff6f61;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.search-button:hover {
+  background-color: #ff4f41;
+  transform: scale(1.05);
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.dark-mode-toggle:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Event List Styles */
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  width: calc(100% - 40px);
+  box-sizing: border-box;
+}
+
+/* Event Card Styles */
+.event-card {
+  flex: 1 1 calc(25% - 20px);
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.dark-mode .event-card {
+  background: #2a2a2a;
+  border: 1px solid #444;
+  color: white;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Event Card Image Styles */
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.dark-mode .event-card img {
+  filter: brightness(0.8);
+}
+
+/* Modal Backdrop Styles */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content Styles */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
+}
+
+.dark-mode .modal-content {
+  background: #292929;
+}
+
+/* Close Button Styles */
+.close-btn {
+  float: right;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.dark-mode .close-btn {
+  color: #fff;
+}
+
+/* Additional Modal Image Styles */
+.modal-content img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}

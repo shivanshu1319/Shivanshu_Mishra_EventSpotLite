@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Music Concert",
+      "date": "15-11-2024",
+      "location": "Mumbai, India",
+      "description": "An electrifying night with live performances from top bands and artists. Enjoy music, food, and fun.",
+      "image": "https://img.freepik.com/premium-photo/confetti-fireworks-crowd-music-festival_989072-16.jpg?semt=ais_hybrid",
+      "duration": "6 PM - 11 PM",
+      "tickets": "Available online and at the venue."
+    },
+    {
+      "id": 2,
+      "name": "Art Exhibition",
+      "date": "01-12-2024",
+      "location": "Delhi, India",
+      "description": "An exclusive display of contemporary art pieces from renowned artists around the world.",
+      "image": "https://globalexpo.ca/wp-content/uploads/2023/12/How-to-Organize-an-Art-Exhibition.jpg",
+      "duration": "10 AM - 8 PM",
+      "tickets": "Entry is free."
+    },
+    {
+      "id": 3,
+      "name": "Food Festival",
+      "date": "10-12-2024",
+      "location": "Bengaluru, India",
+      "description": "Taste culinary delights from various cultures. A paradise for food lovers with live cooking demos and tasting sessions.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyXvdyJPtC8iiwGwBZvptBw3cs64VbcP1GXDcz8kaIStGTJujrvgOfRJj3fWFoW3oYjg&usqp=CAU",
+      "duration": "12 PM - 10 PM",
+      "tickets": "Tickets available at the entrance."
+    },
+    {
+      "id": 4,
+      "name": "Tech Conference",
+      "date": "20-01-2025",
+      "location": "Hyderabad, India",
+      "description": "A conference for tech enthusiasts featuring keynote speeches from industry leaders, workshops, and networking opportunities.",
+      "image": "https://static.wixstatic.com/media/cb9cb4_93e931545baf43b2b5353cf73923bd8f~mv2.jpg/v1/fill/w_640,h_366,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cb9cb4_93e931545baf43b2b5353cf73923bd8f~mv2.jpg",
+      "duration": "9 AM - 5 PM",
+      "tickets": "Register online for early bird pricing."
+    },
+    {
+      "id": 5,
+      "name": "Marathon",
+      "date": "05-02-2025",
+      "location": "Chennai, India",
+      "description": "Join runners from around the world in this annual marathon event. Open to all fitness levels.",
+      "image": "https://img.etimg.com/photo/msid-67863980,imgsize-54564/Untitled-3.jpg",
+      "duration": "6 AM - 12 PM",
+      "tickets": "Register online to participate."
+    },
+    {
+      "id": 6,
+      "name": "Film Festival",
+      "date": "15-03-2025",
+      "location": "Pune, India",
+      "description": "A celebration of independent films from various genres. Meet filmmakers, attend screenings, and enjoy panel discussions.",
+      "image": "https://i.ytimg.com/vi/ghrHs4yveGM/maxresdefault.jpg",
+      "duration": "11 AM - 9 PM",
+      "tickets": "Passes available online."
+    },
+    {
+      "id": 7,
+      "name": "Book Fair",
+      "date": "10-04-2025",
+      "location": "Kolkata, India",
+      "description": "A paradise for book lovers with stalls from publishers, author signings, and literary discussions.",
+      "image": "https://www.hindustantimes.com/ht-img/img/2024/09/27/550x309/Book-lovers-on-the-first-day-of-National-Book-fair_1727464762110.jpg",
+      "duration": "10 AM - 7 PM",
+      "tickets": "Free entry for all."
+    },
+    {
+      "id": 8,
+      "name": "Fashion Show",
+      "date": "25-05-2025",
+      "location": "Mumbai, India",
+      "description": "A showcase of the latest fashion trends featuring top designers and models on the runway.",
+      "image": "https://www.desiclik.com/blog/wp-content/uploads/2015/12/lakme-India-Fashion-Week-2015.jpg",
+      "duration": "7 PM - 10 PM",
+      "tickets": "Tickets available at the venue."
+    },
+    {
+      "id": 9,
+      "name": "Cultural Festival",
+      "date": "15-06-2025",
+      "location": "Jaipur, India",
+      "description": "Experience the rich cultural heritage of India through music, dance, and art displays from various states.",
+      "image": "https://xplro.com/wp-content/uploads/2024/09/Xplro-2024-09-18T014744.511.webp",
+      "duration": "10 AM - 6 PM",
+      "tickets": "Free entry for all."
+    }
+  ]
+  
