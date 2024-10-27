@@ -4,17 +4,19 @@ EventSpot Lite is a web application designed to help users discover events based
 
 ## Features
 
-Search Functionality: Search for events by name and location.
-Event Details: Click on an event card to view detailed information in a modal.
-Dark Mode: Toggle between light and dark modes for comfortable viewing.
-Responsive Design: Works seamlessly on various devices.
-Technologies Used
+- **Search Functionality**: Search for events by name and location.
+- **Event Details**: Click on an event card to view detailed information in a modal.
+- **Dark Mode**: Toggle between light and dark modes for comfortable viewing.
+- **Responsive Design**: Works seamlessly on various devices.
 
-React: For building the user interface.
-JavaScript: For application logic.
-CSS: For styling and layout.
-JSON: For storing event data.
-Getting Started
+## Technologies Used
+
+- **React**: For building the user interface.
+- **JavaScript**: For application logic.
+- **CSS**: For styling and layout.
+- **JSON**: For storing event data.
+
+## Getting Started
 
 To run the project locally, follow these steps:
 
