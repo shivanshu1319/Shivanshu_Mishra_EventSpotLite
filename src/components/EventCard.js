@@ -1,5 +1,4 @@
 import React from 'react';
-
 const EventCard = ({ event, isOpen, toggleModal }) => {
   return (
     <div 
